@@ -1,10 +1,10 @@
 const thingsILove = [
-  "Cara kamu ketawa yang selalu nular dan bikin suasana jadi lebih ringan.",
-  "Cara kamu perhatian sama hal-hal kecil yang kadang orang lain nggak notice.",
-  "Ekspresi kamu kalau lagi cerita sesuatu yang kamu suka banget.",
-  "Caramu marahin aku tapi tetap pakai nada sayang.",
-  "Fakta bahwa kamu tetap mau sabar sama aku yang seringnya nyebelin.",
-  "(Nanti aku isi lagi di sini, masih banyak hal yang aku suka dari kamu.)",
+  "Caramu jadi versi kamu sendiri tanpa pura-pura di depan orang.",
+  "Cara kamu mikirin orang lain, bahkan di saat kamu lagi capek.",
+  "Tatapan kamu kalau lagi serius dengerin cerita orang.",
+  "Caramu ngehargain hal-hal kecil yang orang lain sering lewatin.",
+  "Fakta bahwa di umur 20 ini, kamu udah sejauh ini berjuang tapi tetap bisa senyum.",
+  "(Ini baru sebagian kecil dari hal-hal yang aku suka dari kamu, Anisa.)",
 ];
 
 export default function SectionKetiga() {
@@ -12,11 +12,11 @@ export default function SectionKetiga() {
     <section className="w-full py-16 px-4 sm:px-8 bg-pink-50">
       <div className="max-w-3xl mx-auto">
         <h2 className="text-2xl sm:text-3xl font-bold text-pink-900 mb-6">
-          Hal-hal yang Aku Suka dari Kamu
+          Hal-hal yang Aku Suka dari Anisa
         </h2>
         <p className="text-pink-700 text-sm sm:text-base mb-6">
-          Ini baru sebagian kecil. Jujur, kalau ditulis semua, mungkin satu
-          halaman nggak akan cukup.
+          Di usia 20 tahun ini, ada banyak banget hal tentang kamu yang bikin
+          aku bersyukur bisa kenal dan deket sama kamu.
         </p>
         <div className="grid gap-4 sm:grid-cols-2">
           {thingsILove.map((item, index) => (

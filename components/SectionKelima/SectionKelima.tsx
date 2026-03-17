@@ -1,9 +1,9 @@
 const promises = [
-  "Aku janji bakal selalu coba dengerin kamu, bahkan di hari-hari aku lagi capek.",
-  "Aku janji bakal terus belajar jadi versi terbaik dari diri aku buat kamu.",
-  "Aku janji bakal ngajak kamu bikin lebih banyak first trip lagi bareng-bareng.",
-  "Aku janji bakal tetap ingetin kamu makan dan minum air putih.",
-  "Aku janji bakal tetep ada, bahkan di hari-hari yang rasanya berat.",
+  "Aku janji bakal terus dukung kamu ngejar hal-hal yang kamu mau di usia 20 ini dan seterusnya.",
+  "Aku janji bakal jadi orang yang selalu kamu bisa ajak cerita, bahkan buat hal-hal kecil yang kelihatannya sepele.",
+  "Aku janji bakal terus ngingetin kamu kalau kamu cukup, bahkan di hari-hari kamu ngerasa nggak sehebat itu.",
+  "Aku janji bakal nyemangatin kamu waktu capek, dan nemenin kamu waktu kamu lagi ngerasa sendiri.",
+  "Aku janji bakal ada di banyak ulang tahunmu berikutnya, kalau kamu masih mau.",
 ];
 
 export default function SectionKelima() {
@@ -11,11 +11,11 @@ export default function SectionKelima() {
     <section className="w-full py-16 px-4 sm:px-8 bg-pink-50">
       <div className="max-w-3xl mx-auto">
         <h2 className="text-2xl sm:text-3xl font-bold text-pink-900 mb-6">
-          Janji Kecil dari Aku
+          Janji Kecil di Usia 20
         </h2>
         <p className="text-pink-700 text-sm sm:text-base mb-6">
-          Nggak muluk-muluk. Tapi semoga pelan-pelan bisa bikin kamu ngerasa
-          aman dan cukup.
+          Di momen ulang tahunmu ini, aku pengin nitip beberapa janji kecil yang
+          semoga bisa bikin kamu ngerasa lebih aman dan lebih disayang.
         </p>
         <ul className="space-y-3">
           {promises.map((item, index) => (

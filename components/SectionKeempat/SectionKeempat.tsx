@@ -31,11 +31,12 @@ export default function SectionKeempat() {
     <section className="w-full py-16 px-4 sm:px-8 bg-white">
       <div className="max-w-3xl mx-auto">
         <h2 className="text-2xl sm:text-3xl font-bold text-pink-900 mb-6">
-          Potongan Kenangan Kita
+          Potongan Kenangan Ulang Tahun
         </h2>
         <p className="text-pink-700 text-sm sm:text-base mb-6">
-          Untuk sekarang, ini masih placeholder. Nanti, kita bisa ganti jadi
-          foto-foto atau momen yang paling bikin kamu senyum kalau ngeliatnya.
+          Di sini nanti bakal keisi foto-foto momen ulang tahunmu, atau momen
+          random lain yang bikin kamu inget kalau kamu layak dirayakan, bukan
+          cuma hari ini, tapi setiap hari.
         </p>
         <div className="grid gap-6 sm:grid-cols-2">
           {memories.map((memory, index) => (

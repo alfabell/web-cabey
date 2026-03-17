@@ -8,15 +8,15 @@ export default function HeroSection() {
       <div className="max-w-3xl w-full flex flex-col-reverse items-center gap-10 sm:flex-row sm:items-center">
         <div className="flex-1 text-center sm:text-left">
           <p className="text-sm font-medium tracking-[0.2em] text-pink-500 uppercase mb-2">
-            special for you
+            happy 20th birthday
           </p>
           <h1 className="text-4xl sm:text-5xl font-bold text-pink-900 mb-4 leading-tight">
-            Hi, sayang. This little website is for you.
+            Selamat ulang tahun yang ke-20, Anisa Arwani ♡
           </h1>
           <p className="text-base sm:text-lg text-pink-700 mb-6 max-w-xl mx-auto sm:mx-0">
-            Scroll pelan-pelan ya, jangan di-skip. Di sini aku nyimpen sedikit
-            cerita tentang kita dan hal-hal kecil yang selalu bikin aku
-            bersyukur punya kamu.
+            Hari ini kamu resmi 20 tahun, dan aku pengin kasih sesuatu yang
+            kecil tapi tulus buat kamu. Scroll pelan-pelan ya, ini semua aku
+            bikin khusus buat kamu.
           </p>
           <button
             className="inline-flex items-center gap-2 rounded-full bg-pink-500 px-6 py-3 text-sm sm:text-base font-semibold text-white shadow-md shadow-pink-300/60 hover:bg-pink-600 transition-colors"
@@ -25,7 +25,7 @@ export default function HeroSection() {
               if (el) el.scrollIntoView({ behavior: "smooth" });
             }}
           >
-            Mulai perjalanan kita
+            Mulai lihat hadiah kecil ini
             <span className="text-lg">♡</span>
           </button>
         </div>
