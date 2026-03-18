@@ -25,8 +25,8 @@ const playlist = [
 
 export default function SectionKedelapan() {
   return (
-    <section className="w-full py-16 px-4 sm:px-8 bg-white">
-      <div className="max-w-3xl mx-auto">
+    <section className="w-full py-16 px-4 sm:px-10 bg-white">
+      <div className="max-w-5xl mx-auto">
         <h2 className="text-2xl sm:text-3xl font-bold text-pink-900 mb-6">
           Our Playlist
         </h2>

@@ -1,17 +1,23 @@
 export default function SectionKedua() {
   return (
-    <section id="our-story" className="w-full py-16 px-4 sm:px-8 bg-white">
-      <div className="max-w-3xl mx-auto">
-        <h2 className="text-2xl sm:text-3xl font-bold text-pink-900 mb-6">
+    <section
+      id="our-story"
+      className="w-full py-16 px-4 sm:px-10 bg-gradient-to-b from-white via-pink-50/40 to-white"
+    >
+      <div className="max-w-5xl mx-auto">
+        <h2 className="text-2xl sm:text-3xl font-bold text-pink-900 mb-2">
           20 Tahun Anisa
         </h2>
-        <p className="text-pink-700 text-sm sm:text-base mb-8">
+        <p className="text-pink-500 text-xs sm:text-sm font-medium mb-2">
+          Bab kecil tentang kamu dan usiamu yang baru ✨
+        </p>
+        <p className="text-pink-700 text-sm sm:text-base mb-8 max-w-2xl">
           Ulang tahun ke-20 kamu itu momen yang kerasa spesial banget buat aku.
           Di sini aku kumpulin sedikit hal tentangmu dan tentang rasa syukurku
           karena bisa nemenin kamu sejauh ini.
         </p>
         <div className="space-y-6">
-          <div className="relative rounded-2xl border border-pink-100 bg-pink-50/80 p-5 sm:p-6">
+          <div className="relative rounded-2xl border border-pink-100 bg-pink-50/80 p-5 sm:p-6 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_18px_45px_rgba(244,114,182,0.35)] hover:border-pink-200">
             <span className="absolute -top-3 left-4 inline-flex items-center rounded-full bg-pink-500 px-3 py-1 text-xs font-semibold text-white shadow-sm">
               Babak Baru: 20 Tahun
             </span>
@@ -26,7 +32,7 @@ export default function SectionKedua() {
             </p>
           </div>
 
-          <div className="relative rounded-2xl border border-pink-100 bg-pink-50/80 p-5 sm:p-6">
+          <div className="relative rounded-2xl border border-pink-100 bg-pink-50/80 p-5 sm:p-6 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_18px_45px_rgba(244,114,182,0.35)] hover:border-pink-200">
             <span className="absolute -top-3 left-4 inline-flex items-center rounded-full bg-pink-500 px-3 py-1 text-xs font-semibold text-white shadow-sm">
               Harapan Tahun Ini
             </span>
@@ -40,7 +46,7 @@ export default function SectionKedua() {
             </p>
           </div>
 
-          <div className="rounded-2xl border border-dashed border-pink-200 bg-pink-50/40 p-5 sm:p-6 text-center">
+          <div className="rounded-2xl border border-dashed border-pink-200 bg-pink-50/40 p-5 sm:p-6 text-center transition-colors duration-300 hover:bg-pink-50/80">
             <p className="text-sm sm:text-base text-pink-700">
               Di depan masih banyak banget halaman kosong yang bakal kamu isi
               dengan cerita-cerita baru. Semoga di tiap halamannya, kamu selalu

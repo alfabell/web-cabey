@@ -6,8 +6,8 @@ export default function SectionKeenam() {
   const [opened, setOpened] = useState(false);
 
   return (
-    <section className="w-full py-16 px-4 sm:px-8 bg-white">
-      <div className="max-w-3xl mx-auto text-center">
+    <section className="w-full py-16 px-4 sm:px-10 bg-white">
+      <div className="max-w-5xl mx-auto text-center">
         <h2 className="text-2xl sm:text-3xl font-bold text-pink-900 mb-4">
           Ucapan yang Sedikit Lebih Serius
         </h2>

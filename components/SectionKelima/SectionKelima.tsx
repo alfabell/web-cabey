@@ -8,8 +8,8 @@ const promises = [
 
 export default function SectionKelima() {
   return (
-    <section className="w-full py-16 px-4 sm:px-8 bg-pink-50">
-      <div className="max-w-3xl mx-auto">
+    <section className="w-full py-16 px-4 sm:px-10 bg-pink-50">
+      <div className="max-w-5xl mx-auto">
         <h2 className="text-2xl sm:text-3xl font-bold text-pink-900 mb-6">
           Janji Kecil di Usia 20
         </h2>
