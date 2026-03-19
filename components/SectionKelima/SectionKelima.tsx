@@ -3,7 +3,7 @@ const promises = [
   "Aku janji bakal jadi orang yang selalu kamu bisa ajak cerita, bahkan buat hal-hal kecil yang kelihatannya sepele.",
   "Aku janji bakal terus ngingetin kamu kalau kamu cukup, bahkan di hari-hari kamu ngerasa nggak sehebat itu.",
   "Aku janji bakal nyemangatin kamu waktu capek, dan nemenin kamu waktu kamu lagi ngerasa sendiri.",
-  "Aku janji bakal ada di banyak ulang tahunmu berikutnya, kalau kamu masih mau.",
+  "Aku janji di tahun berikutnya kita ngerayain hari ulang tahun kamu sama aku lagi.",
 ];
 
 export default function SectionKelima() {

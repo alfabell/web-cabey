@@ -62,4 +62,22 @@ body {
   .animate-delay-300 {
     animation-delay: 300ms;
   }
+
+  @keyframes love-burst {
+    0% {
+      opacity: 0;
+      transform: translate(-50%, 4px) scale(0.5);
+    }
+    15% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+      transform: translate(-50%, -56px) scale(1.2);
+    }
+  }
+
+  .animate-love-burst {
+    animation: love-burst 1.2s ease-out forwards;
+  }
 }

@@ -1,10 +1,10 @@
 const thingsILove = [
   "Caramu jadi versi kamu sendiri tanpa pura-pura di depan orang.",
-  "Cara kamu mikirin orang lain, bahkan di saat kamu lagi capek.",
-  "Tatapan kamu kalau lagi serius dengerin cerita orang.",
+  "Cara kamu mikirin aku, bahkan di saat kamu lagi capek.",
+  "Tatapan kamu kalau lagi serius dengerin yappingnya aku.",
   "Caramu ngehargain hal-hal kecil yang orang lain sering lewatin.",
   "Fakta bahwa di umur 20 ini, kamu udah sejauh ini berjuang tapi tetap bisa senyum.",
-  "(Ini baru sebagian kecil dari hal-hal yang aku suka dari kamu, Anisa.)",
+  "Ini baru sebagian kecil dari hal-hal yang aku suka dari kamu, sayangg.",
 ];
 
 export default function SectionKetiga() {

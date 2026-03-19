@@ -40,7 +40,7 @@ export default function SectionKedua() {
               Untuk: Anisa Arwani
             </p>
             <p className="mt-3 text-sm sm:text-base text-pink-900">
-              Di usia baru ini, aku cuma pengin kamu lebih bahagia, lebih tenang
+              Di usia baru ini, aku cuma pengen kamu lebih bahagia, lebih tenang
               sama diri sendiri, dikelilingi orang-orang baik, dan selalu
               ngerasa cukup, apapun yang lagi kamu jalanin.
             </p>
@@ -48,8 +48,7 @@ export default function SectionKedua() {
 
           <div className="rounded-2xl border border-dashed border-pink-200 bg-pink-50/40 p-5 sm:p-6 text-center transition-colors duration-300 hover:bg-pink-50/80">
             <p className="text-sm sm:text-base text-pink-700">
-              Di depan masih banyak banget halaman kosong yang bakal kamu isi
-              dengan cerita-cerita baru. Semoga di tiap halamannya, kamu selalu
+              Semoga di tiap halamannya, kamu selalu
               nemuin alasan buat senyum.
             </p>
           </div>

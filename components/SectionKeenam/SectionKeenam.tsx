@@ -35,7 +35,7 @@ export default function SectionKeenam() {
               sini yang bener-bener sayang sama kamu dan bangga sama kamu.
             </p>
             <p className="text-base sm:text-lg font-semibold text-pink-900 mt-4">
-              Selamat ulang tahun yang ke-20, Anisa. Semoga tahun ini jadi tahun
+              Selamat ulang tahun yang ke-20, Sayang. Semoga tahun ini jadi tahun
               yang lebih lembut buat kamu. ♡
             </p>
           </div>

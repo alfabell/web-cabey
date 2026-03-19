@@ -1,25 +1,25 @@
 const playlist = [
   {
     title: "Lagu 1",
-    artist: "Nama penyanyi",
+    artist: "Anything you want - Reality Club",
     reason:
       "Lagu ini bakal kita isi sama lagu yang paling ngingetin aku ke kamu.",
   },
   {
     title: "Lagu 2",
-    artist: "Nama penyanyi",
+    artist: "Nothing's Gonna Change My Love for You - George Benson",
     reason:
       "Mungkin ini lagu yang sering kamu putar, atau yang pernah kita denger bareng.",
   },
   {
     title: "Lagu 3",
-    artist: "Nama penyanyi",
+    artist: "Birds of a feather - Billie Eilish",
     reason: "Lagu yang liriknya berasa kayak lagi cerita tentang kita.",
   },
   {
     title: "Lagu 4",
-    artist: "Nama penyanyi",
-    reason: "(Placeholder) Nanti kita isi lagi sama lagu lain.",
+    artist: "Risk it all - Bruno Mars",
+    reason: "Lagu yang maknanya menggambarkan hubungan kita kedepannya.",
   },
 ];
 
@@ -32,8 +32,7 @@ export default function SectionKedelapan() {
         </h2>
         <p className="text-pink-700 text-sm sm:text-base mb-6">
           Ini kumpulan lagu-lagu yang entah kenapa selalu bikin aku inget kamu
-          atau momen-momen kita. Nanti, kita bisa isi judul dan penyanyinya
-          bareng-bareng.
+          atau momen-momen kita.
         </p>
         <div className="space-y-4">
           {playlist.map((song, index) => (
@@ -60,9 +59,7 @@ export default function SectionKedelapan() {
         </div>
         <div className="mt-8 space-y-3">
           <p className="text-xs sm:text-sm text-pink-700">
-            Di bawah ini nanti kita bisa taruh playlist beneran dari
-            Spotify/YouTube. Untuk sekarang aku pakai contoh aja, nanti linknya
-            bisa kita ganti ke playlist kita sendiri.
+            Di bawah ini adalah Playlist Spotify kita yang pastinya aku dengar.
           </p>
           <div className="overflow-hidden rounded-2xl border border-pink-100 bg-pink-50/60 shadow-sm shadow-pink-100">
             <iframe

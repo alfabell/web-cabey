@@ -4,25 +4,25 @@ const memories = [
   {
     title: "Kenangan 1",
     caption:
-      "Foto ini nanti bisa kita ganti sama momen kita yang paling kamu suka.",
-    imageSrc: "/memories/memory-1.jpg",
+      "Foto ini yang paling aku suka.",
+    imageSrc: "/FotoCoklatBunga.jpeg",
   },
   {
     title: "Kenangan 2",
     caption:
-      "Di sini mungkin waktu kita pertama kali jalan bareng sampai malam.",
-    imageSrc: "/memories/memory-2.jpg",
+      "Di sini waktu kita dinner buat ngerayain hari kita.",
+    imageSrc: "/FotoDudukMakanan.jpeg",
   },
   {
     title: "Kenangan 3",
     caption:
-      "Momen random tapi berkesan, yang keliatannya kecil tapi kerasa hangat.",
-    imageSrc: "/memories/memory-3.jpg",
+      "Momen dimana kamu bertambah usia.",
+    imageSrc: "/FotoKue.jpeg",
   },
   {
     title: "Kenangan 4",
-    caption: "(Placeholder) Nanti kita isi lagi sama memori baru.",
-    imageSrc: "/memories/memory-4.jpg",
+    caption: "Ini foto yang menurut aku kamu cantik banget banget banget",
+    imageSrc: "/FotoBungaMobil.jpeg",
   },
 ];
 
@@ -60,9 +60,6 @@ export default function SectionKeempat() {
                 <p className="text-xs sm:text-sm text-pink-800">
                   {memory.caption}
                 </p>
-              </div>
-              <div className="mt-3 text-[11px] text-pink-500 italic">
-                (Nanti bisa diganti sama foto beneran)
               </div>
             </div>
           ))}
